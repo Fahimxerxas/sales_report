@@ -102,3 +102,39 @@ body {
     color: #feff00;
     text-align: center;
 }
+
+@media (min-width: 278px) and (max-width:285px){
+    .sales-text {
+    margin-top: 8px;
+    font-weight: 700;
+    font-size: 13px;
+}
+.search-bar {
+    background-color: #ff000000;
+    border: 1px solid black;
+    border-radius: 15px;
+    position: relative;
+    /* padding: 1px 40px; */
+    color: black;
+    margin-top: 4px;
+    padding: 0px 26px;
+}
+.search-icon {
+    position: absolute;
+    width: 26px;
+    left: 18px;
+    margin-top: 11px;
+}
+}
+
+@media (min-width: 318px) and (max-width:330px){
+    .search-bar {
+    background-color: #ff000000;
+    border: 1px solid black;
+    border-radius: 15px;
+    position: relative;
+    padding: 10px 36px;
+    color: black;
+    margin-top: 4px;
+}
+}
